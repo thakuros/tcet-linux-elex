@@ -101,7 +101,6 @@ xl2tpd
 zsh
 
 #kernel for TCET Linux
-linux #for livecd
 linux-hardened
 linux-firmware
 linux-hardened-headers
@@ -113,8 +112,7 @@ xorg
 sddm
 bash-completion
 networkmanager
-linux-headers
-base-devel
+#base-devel
 
 #System Utilities for TCET Linux
 konsole
@@ -123,36 +121,36 @@ dolphin
 dolphin-plugins
 xdg-user-dirs
 spectacle
-ark
-filelight
-kcalc
+#ark
+#filelight
+#kcalc
 neofetch
 
 #Installer
 grub
 efibootmgr
 calamares
-alg-calamares-config
+tcet-cala-config
 os-prober
 
 #Browser
 firefox
 
 #Software Centers
-discover
-packagekit-qt5
+#discover
+#packagekit-qt5
 
 #Office Suite
-libreoffice-fresh
-okular
-ttf-ms-fonts
-ttf-roboto
+#libreoffice-fresh
+#okular
+#ttf-ms-fonts
+#ttf-roboto
 
 #Video
-vlc
+#vlc
 
 #Icons
-tela-circle-icon
+#tela-circle-icon
 
 #Chaotic AUR
-chaotic-keyring
+#chaotic-keyring
