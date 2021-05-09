@@ -14,4 +14,4 @@ sudo rm -rvf build/
 
 tput setaf 2
 echo "D O N E!"
-tput srg0
+tput sgr0
