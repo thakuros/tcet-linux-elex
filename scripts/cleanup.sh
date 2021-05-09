@@ -7,8 +7,10 @@
 #=================================================================================
 #set -e
 
-sudo rm -rvf out/ 
-sudo rm -rvf work/
+cd ..
+
+sudo rm -rvf build/
+
 
 tput setaf 2
 echo "D O N E!"
