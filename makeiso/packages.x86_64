@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
 amd-ucode
-archinstall
 arch-install-scripts
 b43-fwcutter
 base
@@ -10,7 +9,6 @@ bind-tools
 brltty
 broadcom-wl
 btrfs-progs
-clonezilla
 cloud-init
 crda
 darkhttpd
@@ -22,7 +20,6 @@ dmraid
 dnsmasq
 dosfstools
 edk2-shell
-efibootmgr
 espeakup
 ethtool
 exfatprogs
@@ -43,9 +40,6 @@ iwd
 jfsutils
 kitty-terminfo
 lftp
-linux
-linux-atm
-linux-firmware
 livecd-sounds
 lsscsi
 lvm2
@@ -83,7 +77,6 @@ rsync
 rxvt-unicode-terminfo
 sdparm
 sg3_utils
-sl
 smartmontools
 sof-firmware
 squashfs-tools
@@ -94,12 +87,10 @@ tcpdump
 terminus-font
 termite-terminfo
 testdisk
-tmux
 udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
 vpnc
 wireless-regdb
 wireless_tools
@@ -108,3 +99,60 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+#kernel for TCET Linux
+linux #for livecd
+linux-hardened
+linux-firmware
+linux-hardened-headers
+linux-atm
+
+#TCET Linux PLASMA
+plasma
+xorg
+sddm
+bash-completion
+networkmanager
+linux-headers
+base-devel
+
+#System Utilities for TCET Linux
+konsole
+kate
+dolphin
+dolphin-plugins
+xdg-user-dirs
+spectacle
+ark
+filelight
+kcalc
+neofetch
+
+#Installer
+grub
+efibootmgr
+calamares
+alg-calamares-config
+os-prober
+
+#Browser
+firefox
+
+#Installers
+discover
+packagekit-qt5
+
+#Office Suite
+libreoffice-fresh
+okular
+ttf-ms-fonts
+ttf-roboto
+
+#Video
+vlc
+
+#Icons
+tela-circle-icon
+
+#Chaotic AUR
+chaotic-keyring
