@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,tcetian
+network:x:90:tcetian
+power:x:98:tcetian
+adm:x:999:tcetian
+wheel:x:998:tcetian
+uucp:x:987:tcetian
+optical:x:990:tcetian
+rfkill:x:983:tcetian
+video:x:986:tcetian
+storage:x:988:tcetian
+audio:x:995:tcetian
+users:x:985:tcetian
+nopasswdlogin:x:966:tcetian
+autologin:x:967:tcetian
+tcetian:x:1000:
