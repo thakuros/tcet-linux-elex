@@ -20,7 +20,7 @@ echo
     desktop="plasma"
     version="v1"
     iso_version="elex"
-    isolabel="tcetlinux_'$iso_version'-x86_64.iso"
+    isolabel="tcetlinux_$iso_version-x86_64.iso"
 
     build_folder="build/work/"
     iso_folder="build/out/"
@@ -87,6 +87,7 @@ echo "################################################################## "
 echo
 
 	cd ..
+	mkdir build/
 	mkdir build/work/
 	mkdir build/out/
 	sudo mkarchiso -v -w $build_folder -o $iso_folder makeiso
