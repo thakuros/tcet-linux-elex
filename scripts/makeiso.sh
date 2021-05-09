@@ -25,12 +25,13 @@ echo
     build_folder="build/work/"
     iso_folder="build/out/"
 
+    archisoVersion=$(sudo pacman -Q archiso)
     archisoRequiredVersion="archiso 53-1"
 
     echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	echo "Building version                       : "$carliVersion
-	echo "Iso label                              : "$isoLabel
+	echo "Building version                       : "$version
+	echo "Iso label                              : "$isolabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
 	echo "################################################################## "
