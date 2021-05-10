@@ -101,9 +101,9 @@ xl2tpd
 zsh
 
 #kernel for TCET Linux
-linux-hardened
+linux
 linux-firmware
-linux-hardened-headers
+#linux-headers
 linux-atm
 
 #TCET Linux PLASMA
@@ -118,7 +118,7 @@ networkmanager
 konsole
 kate
 dolphin
-dolphin-plugins
+#dolphin-plugins
 xdg-user-dirs
 spectacle
 #ark
@@ -131,10 +131,10 @@ grub
 efibootmgr
 calamares
 tcet-cala-config
-os-prober
+#os-prober
 
 #Browser
-firefox
+#firefox
 
 #Software Centers
 #discover

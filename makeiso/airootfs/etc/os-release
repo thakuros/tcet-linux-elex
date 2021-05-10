@@ -1,0 +1,6 @@
+NAME="TCET Linux"
+PRETTY_NAME="TCET Linux"
+ID=tcet
+BUILD_ID=elex
+ANSI_COLOR="38;2;23;147;209"
+LOGO=tcet
