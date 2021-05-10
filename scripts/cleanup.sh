@@ -9,7 +9,7 @@
 
 cd ..
 
-sudo rm -rvf build/
+sudo rm -rvf iso_build/
 
 
 tput setaf 2

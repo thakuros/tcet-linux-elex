@@ -108,8 +108,7 @@ linux-atm
 
 #TCET Linux PLASMA
 plasma-desktop
-xorg-server
-xorg-apps
+xorg
 sddm
 bash-completion
 networkmanager
