@@ -11,7 +11,7 @@ tput setaf 2
 echo "Welcome to Bootable USB Maker!"
 echo "We are making TCET Linux Bootable USB, please wait..."
 echo "                               "
-tput srg0
+tput sgr0
 
 #echo "Printing Partitions in Drive:"
 #lsblk
@@ -25,7 +25,7 @@ umount /dev/sdb*
 echo "==========================================================="
 tput setaf 1
 echo "Formatting with ext4.."
-tput srg0
+tput sgr0
 sudo mkfs.ext4 /dev/sdb
 
 tput setaf 2
@@ -36,7 +36,7 @@ echo "                                                           "
 echo "==========================================================="
 echo "Making TCET Linux bootable USB, this may take sometime...."
 cd ..
-cd makeiso/out/
+cd iso_build/out/
 sudo dd if=tcetlinux_elex-$(date +%Y.%m)-x86_64.iso of=/dev/sdb status='progress'
 
 

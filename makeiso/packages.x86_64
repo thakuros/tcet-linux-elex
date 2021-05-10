@@ -107,8 +107,9 @@ linux-firmware
 linux-atm
 
 #TCET Linux PLASMA
-plasma
-xorg
+plasma-desktop
+xorg-server
+xorg-apps
 sddm
 bash-completion
 networkmanager

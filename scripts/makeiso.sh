@@ -103,7 +103,7 @@ echo
 
 	cd $iso_folder
 
-	echo "Creating checksums for : "$isoLabel
+	echo "Creating checksums for : "$isolabel
 	echo "##################################################################"
 	echo
 	echo "Building sha1sum"
