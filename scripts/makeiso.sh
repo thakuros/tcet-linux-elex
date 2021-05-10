@@ -108,13 +108,13 @@ echo
 	echo
 	echo "Building sha1sum"
 	echo "########################"
-	sha1sum $isoLabel | tee $isolabel.sha1
+	sha1sum $isolabel | tee $isolabel.sha1
 	echo "Building sha256sum"
 	echo "########################"
-	sha256sum $isoLabel | tee $isolabel.sha256
+	sha256sum $isolabel | tee $isolabel.sha256
 	echo "Building md5sum"
 	echo "########################"
-	md5sum $isoLabel | tee $isolabel.md5
+	md5sum $isolabel | tee $isolabel.md5
 	echo
 
 echo
