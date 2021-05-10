@@ -22,8 +22,8 @@ echo
     iso_version="elex"
     isolabel="tcetlinux_$iso_version-x86_64.iso"
 
-    build_folder="build/work/"
-    iso_folder="build/out/"
+    build_folder="iso_build/work/"
+    iso_folder="iso_build/out/"
 
     archisoVersion=$(sudo pacman -Q archiso)
     archisoRequiredVersion="archiso 53-1"
@@ -87,9 +87,9 @@ echo "################################################################## "
 echo
 
 	cd ..
-	mkdir build/
-	mkdir build/work/
-	mkdir build/out/
+	mkdir iso_build/
+	mkdir iso_build/work/
+	mkdir iso_build/out/
 	sudo mkarchiso -v -w $build_folder -o $iso_folder makeiso
 
 echo
