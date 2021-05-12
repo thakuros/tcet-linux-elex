@@ -6,7 +6,6 @@ arch-install-scripts
 b43-fwcutter
 base
 bind-tools
-brltty
 broadcom-wl
 btrfs-progs
 cloud-init
@@ -43,7 +42,6 @@ lftp
 livecd-sounds
 lsscsi
 lvm2
-lynx
 man-db
 man-pages
 mc
@@ -66,7 +64,6 @@ openconnect
 openssh
 openvpn
 partclone
-parted
 partimage
 ppp
 pptpclient
@@ -74,7 +71,6 @@ reflector
 reiserfsprogs
 rp-pppoe
 rsync
-rxvt-unicode-terminfo
 sdparm
 sg3_utils
 smartmontools
@@ -85,7 +81,6 @@ syslinux
 systemd-resolvconf
 tcpdump
 terminus-font
-termite-terminfo
 testdisk
 udftools
 usb_modeswitch
@@ -101,13 +96,13 @@ xl2tpd
 zsh
 
 #kernel for TCET Linux
-linux
+linux-hardened
 linux-firmware
-#linux-headers
+#linux-hardened-headers
 linux-atm
 
 #TCET Linux PLASMA
-plasma-desktop
+plasma
 xorg
 sddm
 bash-completion
@@ -131,7 +126,7 @@ grub
 efibootmgr
 calamares
 tcet-cala-config
-#os-prober
+os-prober
 
 #Browser
 #firefox
@@ -147,7 +142,7 @@ tcet-cala-config
 #ttf-roboto
 
 #Video
-#vlc
+vlc
 
 #Icons
 #tela-circle-icon
