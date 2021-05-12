@@ -126,13 +126,14 @@ tput sgr0
 echo "###################################################################"
 echo
 
-    echo "Do you want to create a bootable USB? [Y/n]"
+    echo "Do you want to create a bootable USB? [y/n]"
     read answer
     yes="y"
-    if [ "$answer" == "$yes" ]; then
+    if [ "$answer" == "$yes" ];
+    then
         ./bootableusb.sh
     else
-    continue
+        continue
     fi
 
 echo "##################################################################"
