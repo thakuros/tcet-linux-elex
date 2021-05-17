@@ -116,6 +116,10 @@ echo
 	echo "########################"
 	md5sum $isolabel | tee $isolabel.md5
 	echo
+	echo "Moving pkglist.x86_64.txt"
+	echo "########################"
+	cp $build_folder/iso/arch/pkglist.x86_64.txt  $iso_folder/$isolabel".pkglist.txt"
+
 
 echo
 echo "###################################################################"
@@ -131,7 +135,39 @@ echo
     yes="y"
     if [ "$answer" == "$yes" ];
     then
-        ./bootableusb.sh
+        echo "We are making TCET Linux Bootable USB, please wait..."
+        echo "                               "
+        tput sgr0
+
+        #echo "Printing Partitions in Drive:"
+        #lsblk
+
+        echo "unmounting drive..."
+        umount /dev/sdb*
+
+        echo "Checking for any mounted partitions & unmounting them...."
+        umount /dev/sdb*
+
+        echo "==========================================================="
+        tput setaf 1
+        echo "Formatting with ext4.."
+        tput sgr0
+        sudo mkfs.ext4 /dev/sdb
+
+        tput setaf 2
+        echo "USB is Formatted.."
+        tput sgr0
+
+        echo "                                                           "
+        echo "==========================================================="
+        echo "Making TCET Linux bootable USB, this may take sometime...."
+        cd ..
+        cd iso_build/out/
+        sudo dd if=tcetlinux_elex-$(date +%Y.%m)-x86_64.iso of=/dev/sdb status='progress'
+
+
+        echo "D O N E! Your USB should be bootable now, with TCET Linux."
+        echo "Thank YOU!"
     else
         continue
     fi
