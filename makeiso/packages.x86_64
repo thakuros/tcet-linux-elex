@@ -147,5 +147,6 @@ os-prober
 #Icons
 #tela-circle-icon
 
-#Chaotic AUR
-#chaotic-keyring
+#QUCS
+qucs-s
+ngspice
