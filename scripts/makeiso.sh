@@ -26,7 +26,7 @@ echo
     iso_folder="iso_build/out/"
 
     archisoVersion=$(sudo pacman -Q archiso)
-    archisoRequiredVersion="archiso 53-1"
+    archisoRequiredVersion="archiso 54-1"
 
     echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
