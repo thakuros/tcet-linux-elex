@@ -1,12 +1,9 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
-amd-ucode
 arch-install-scripts
 b43-fwcutter
-base
 bind-tools
-broadcom-wl
 btrfs-progs
 cloud-init
 crda
@@ -31,7 +28,6 @@ gpm
 gptfdisk
 grml-zsh-config
 hdparm
-intel-ucode
 ipw2100-fw
 ipw2200-fw
 irssi
@@ -95,19 +91,67 @@ xfsprogs
 xl2tpd
 zsh
 
-#kernel for TCET Linux
+#Kernel for TCET Linux
 linux-hardened
-linux-firmware
+#linux-firmware
 #linux-hardened-headers
-linux-atm
+#linux-atm
 
-#TCET Linux PLASMA
-plasma
+#CPU Microcode
+intel-ucode
+amd-ucode
+
+#Base Packages
+base
 xorg
-sddm
-bash-completion
+#bash-completion
+zsh-completions
 networkmanager
 #base-devel
+
+#Installer
+grub
+efibootmgr
+calamares
+tcet-cala-config
+os-prober
+
+#Settings
+tcet-linux-settings
+
+#Chaotic AUR
+chaotic-keyring
+chaotic-mirrorlist
+
+#TCET Linux PLASMA
+sddm
+sddm-kcm
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+plasma-thunderbolt
+plasma-vault
+plasma-workspace
+polkit-kde-agent
+systemsettings
+xdg-desktop-portal-kde
+milou
+libksysguard
+libkscreen
+kwin
+ksystemstats
+kinfocenter
+khotkeys
+kgamma5
+kscreen
+breeze
+kwallet-pam
+kmenuedit
+kscreenlocker
+ksshaskpass
+bluedevil
+drkonqi
 
 #System Utilities for TCET Linux
 konsole
@@ -119,21 +163,20 @@ spectacle
 #ark
 #filelight
 #kcalc
+gwenview
 neofetch
 
-#Installer
-grub
-efibootmgr
-calamares
-tcet-cala-config
-os-prober
+#Icons
+tela-circle-icon
+mcmojave-cursors
 
 #Browser
-#firefox
+firefox
 
 #Software Centers
 #discover
 #packagekit-qt5
+paru
 
 #Office Suite
 #libreoffice-fresh
@@ -144,9 +187,18 @@ os-prober
 #Video
 #vlc
 
-#Icons
-#tela-circle-icon
+#Circuit Simulation
+#qucs-s
+#ngspice
+#ltspice
+#kicad
 
-#QUCS
-qucs-s
-ngspice
+#Coding
+#code
+#anjuta
+#intltool
+#meld
+#codeblocks
+
+#Communication Tools
+#whatsapp-nativefier

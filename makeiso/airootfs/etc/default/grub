@@ -43,7 +43,7 @@ GRUB_DISABLE_RECOVERY=true
 #GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
-#GRUB_BACKGROUND="/path/to/wallpaper"
+GRUB_BACKGROUND="/usr/share/wallpapers/Shadow/contents/images/1920x1080.png"
 #GRUB_THEME=
 
 # Uncomment to get a beep at GRUB start
@@ -56,3 +56,6 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment to make grub stop using submenus
 #GRUB_DISABLE_SUBMENU=y
+
+#New GRUB update disable OS prober by default. We don't want that.
+GRUB_DISABLE_OS_PROBER=false

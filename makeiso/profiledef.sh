@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="tcetlinux_elex"
+iso_name="tcetlinux-elex"
 iso_label="TCET_ELEX_KDE_$(date +%Y%m)"
-iso_publisher="TCET Linux <https://tcetlinux.org>"
+iso_publisher="DemonKiller <linux@tcetmumbai.in>"
 iso_application="TCET Linux Live/Rescue CD"
 iso_version="$(date +%Y.%m)"
 install_dir="tcet"
